@@ -17,9 +17,9 @@ class Persona(models.Model):
 
     fecha_nacimiento = models.DateField(help_text='Ingresar la FECHA DE NAC para el legajo del alumno')
 
-    lugar_nacimiento = models.CharField(max_length=60)
+    lugar_nacimiento = models.CharField(max_length=60, blank=True, null=True)
 
-    email = models.EmailField();
+    email = models.EmailField(blank=True, null=True);
 
     codigo_area_telefono = models.CharField(max_length=15)
 
@@ -27,7 +27,7 @@ class Persona(models.Model):
 
 
     def __str__(self):
-        return self.nombres
+        return self.nombres +" "+self.apellidos
 
 
 class Direccion(models.Model):
