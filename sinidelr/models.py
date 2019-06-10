@@ -44,3 +44,5 @@ class Direccion(models.Model):
 
 
 
+    def __str__(self):
+        return self.persona.nombres +" "+self.persona.apellidos+" - "+self.barrio

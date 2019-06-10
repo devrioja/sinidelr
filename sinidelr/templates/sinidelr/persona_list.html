@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    {% for persona in object_list %}
+    <li> {{ persona }} </li>
+    {% empty %}
+    <li>No hay personas cargadas todavia</li>
+    {% endfor %}
+</ul>
+<p>
+    Usando https ?
+    {{ request.issecure|yesno }}
+
+</p>
+
+</body>
+</html>
