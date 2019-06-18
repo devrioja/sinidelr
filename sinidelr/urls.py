@@ -7,11 +7,14 @@ from . import views
 # ]
 
 app_name= 'sinidelr'
-urlpatterns=[path('',
+urlpatterns=[path('personas',
                   views.PersonaList.as_view(),
                   name='personas'),
-
-             path('test',
+             path('persona/<int:pk>',
+                  views.PersonaDetail.as_view(),
+                  name='PersonaDetail'),
+             path('',
                    views.index,
                    name='index'),
+
              ]

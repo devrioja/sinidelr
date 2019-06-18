@@ -5,6 +5,7 @@ from django.http import HttpResponse
 from django.views.generic import (
     CreateView,
     ListView,
+    DetailView
 )
 from sinidelr.models import Persona
 
@@ -14,4 +15,7 @@ def index(request):
 
 
 class PersonaList(ListView):
+    model = Persona
+
+class PersonaDetail(DetailView):
     model = Persona

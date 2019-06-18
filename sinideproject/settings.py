@@ -55,7 +55,7 @@ ROOT_URLCONF = 'sinideproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'sinideproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'sinidetest',
-        'USER': 'dev',
-        'PASSWORD': 'cepiecepie',
+        'NAME': 'sinidelr',
+        'USER': 'developer',
+        'PASSWORD': 'r3n4t4',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }

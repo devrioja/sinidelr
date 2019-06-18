@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5652042c-3ab1-42c8-99a7-dd69418a3e57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sinidelr/templates/sinidelr/persona_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sinidelr/templates/sinidelr/persona_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sinideproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sinideproject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sinidelr/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sinidelr/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sinidelr/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sinidelr/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sinidelr/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sinidelr/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sinideproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sinideproject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sinideproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sinideproject/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/sinidelr/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -29,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sinidelr/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="285">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -63,16 +64,16 @@
         <entry file="file://$PROJECT_DIR$/sinidelr/templates/sinidelr/persona_list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sinidelr/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="210">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -81,10 +82,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sinideproject/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-545">
+              <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sinidelr/templates/sinidelr/persona_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sinidelr/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="90">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -126,22 +154,24 @@
         <option value="$PROJECT_DIR$/sinidedev/models.py" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/personas/models.py" />
-        <option value="$PROJECT_DIR$/sinideproject/settings.py" />
         <option value="$PROJECT_DIR$/sinidelr/apps.py" />
         <option value="$PROJECT_DIR$/sinidelr/admin.py" />
         <option value="$PROJECT_DIR$/sinidelr/models.py" />
         <option value="$PROJECT_DIR$/sinidelr/persona_list..html" />
-        <option value="$PROJECT_DIR$/sinidelr/views.py" />
         <option value="$PROJECT_DIR$/sinideproject/urls.py" />
+        <option value="$PROJECT_DIR$/sinideproject/settings.py" />
+        <option value="$PROJECT_DIR$/sinidelr/templates/sinidelr/persona_detail.html" />
         <option value="$PROJECT_DIR$/sinidelr/urls.py" />
+        <option value="$PROJECT_DIR$/sinidelr/views.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="51" />
-    <option name="width" value="1346" />
-    <option name="height" value="697" />
+    <option name="x" value="51" />
+    <option name="y" value="205" />
+    <option name="width" value="1342" />
+    <option name="height" value="699" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -149,30 +179,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="sinideproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinidelr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinidelr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinidelr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinidelr" type="462c0819:PsiDirectoryNode" />
+              <item name="sinidelr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinidelr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinidelr" type="462c0819:PsiDirectoryNode" />
+              <item name="sinidelr" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinidelr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinidelr" type="462c0819:PsiDirectoryNode" />
+              <item name="sinidelr" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="sinidelr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinidelr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinidelr" type="462c0819:PsiDirectoryNode" />
               <item name="sinideproject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinideproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinideproject" type="462c0819:PsiDirectoryNode" />
-              <item name="sinideproject" type="462c0819:PsiDirectoryNode" />
+              <item name="sinidelr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinidelr" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../djangoenv/bin/python3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -259,7 +313,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="31" width="1372" height="740" extended-state="6" />
+    <frame x="-3" y="30" width="1372" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981412" />
@@ -377,13 +431,6 @@
     <entry file="file://$PROJECT_DIR$/sinidelr/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sinideproject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="112" column="43" selection-start-line="112" selection-start-column="43" selection-end-line="112" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sinidelr/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -394,37 +441,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sinidelr/templates/sinidelr/persona_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sinidelr/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="90">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sinidelr/templates/sinidelr/persona_list.html">
+    <entry file="file://$PROJECT_DIR$/sinideproject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="-545">
+          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sinidelr/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sinidelr/views.py">
+    <entry file="file://$PROJECT_DIR$/sinidelr/templates/sinidelr/persona_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -440,11 +491,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sinidelr/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="210">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinidelr/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
         </state>
       </provider>
     </entry>

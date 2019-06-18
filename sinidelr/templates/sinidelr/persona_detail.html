@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ object }}
+{% endblock %}
+
+{% block main %}
+<h1>{{ object }}</h1>
+<p class="lead">
+    {{ object.email }}
+</p>
+{% endblock %}
+
+{% block sidebar %}
+<div>
+    lugar nacimiento:
+    <span class="badge badge-primary">
+        {{ object.lugar_nacimiento }}
+    </span>
+</div>
+{% endblock %}
